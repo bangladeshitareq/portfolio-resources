@@ -12,7 +12,9 @@
   .text-primary{
     color: #FD6E0A;
   }
-
+  .secondary-bg{
+    /* color: #FFF8F3; */
+  }
   .dark-2{
     color: #484848;
   }
@@ -25,6 +27,18 @@
     padding: 15px 35px;
     border: none;
     border-radius: 5px;
+  }
+
+  .section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+
+  }
+
+  .section-discription{
+    font-size: 18px;
+    color: #757575;
   }
 
 /* header Style */
@@ -86,4 +100,30 @@ nav li a{
 
 .banner-porfile-pic{
     width: 580px;
+}
+
+/* Main Style */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About Style */
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.item-driscription{
+    font-weight: 600;
 }
