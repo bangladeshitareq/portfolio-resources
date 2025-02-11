@@ -13,34 +13,38 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body class="open-sans-normal">
-    <header class="header">
-      <nav>
-        <h3 class="nav-title">Ma<span class="text-primary">r</span>y</h3>
-        <ul>
-          <li><a class="dark-2" href="">Portfolio </a></li>
-          <li><a class="dark-2" href="">Blog</a></li>
-          <li>
-            <button class="btn-primary">Hire Me</button>
-          </li>
-        </ul>
-      </nav>
-      <div class="banner">
-        <div class="banner-content">
-          <h4 class="banner-greetings dark-2">Hi I am</h4>
-          <h1 class="banner-title">Mary Hardy</h1>
-          <p class="banner-drescription">
-            Shot what able cold new see hold.Friendly as an betrayed formerly
-            he. Morning because as to society behaved moments.
-          </p>
-          <button class="btn-primary">Download CV</button>
-          <button class="btn-primary">Contact</button>
+    <!-- header Area Start -->
+     <header class="header secondary-bg">
+      <div class="header-container">
+        <nav>
+          <h3 class="nav-title">Ma<span class="text-primary">r</span>y</h3>
+          <ul>
+            <li><a class="dark-2" href="">Portfolio </a></li>
+            <li><a class="dark-2" href="">Blog</a></li>
+            <li>
+              <button class="btn-primary">Hire Me</button>
+            </li>
+          </ul>
+        </nav>
+        <div class="banner">
+          <div class="banner-content">
+            <h4 class="banner-greetings dark-2">Hi I am</h4>
+            <h1 class="banner-title">Mary Hardy</h1>
+            <p class="banner-drescription">
+              Shot what able cold new see hold.Friendly as an betrayed formerly
+              he. Morning because as to society behaved moments.
+            </p>
+            <button class="btn-primary">Download CV</button>
+            <button class="btn-primary">Contact</button>
+          </div>
+          <img class="banner-porfile-pic" src="images/hardy.png" alt="" />
         </div>
-        <img class="banner-porfile-pic" src="images/hardy.png" alt="" />
       </div>
-    </header>
+
+     </header>
     <main>
       <!-- About Section Start -->
-      <section class="about">
+      <section class="about secondary-bg">
         <h3 class="section-title">About Me</h3>
         <p class="section-discription">
           I, m a designer & developer with a passion for web design. I enjoy
@@ -120,6 +124,7 @@
           </div>
         </div>
       </section>
+      <!-- Resume Section Start -->
       <section class="resume">
         <h3 class="section-title text-center">A Summary of My Resume</h3>
         <div class="resume-container">
@@ -195,6 +200,25 @@
          <div class="text-center resume-downdoad-cv"><button class="btn-primary ">Download CV</button></div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="secondary-bg footer">
+      <div class="footer-column">
+        <h3 class="section-title">Lets Connect</h3>
+        <p class="section-discription">Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+        <div>
+          <a href=""><img src="images/icons/facebook.png" alt="Facebook Icon"></a>
+          <a href=""><img src="images/icons/twitter.png" alt="Twitter Icon"></a>
+          <a href=""><img src="images/icons/insta.png" alt="Insta Icon"></a>
+        </div>
+      </div>
+      <div class="footer-column">
+        <h3 class="section-title">Let’s Message me</h3>
+        <form action="">
+          <input type="text" name="" id="" placeholder="Your Name">
+          <input type="email" name="" id="" placeholder="Your Email">
+          <textarea name="" id="" cols="30" rows="20" placeholder="Message"></textarea>
+          <input type="button" value="Submit" class="btn-primary">
+        </form>
+      </div>
+    </footer>
   </body>
 </html>
