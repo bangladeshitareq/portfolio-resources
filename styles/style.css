@@ -59,6 +59,7 @@
 .header {
 
   padding-top: 50px;
+  padding-left: 30px;
 }
 .header-container {
   background-image: url("../images/developer.png"),
